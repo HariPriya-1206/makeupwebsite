@@ -1,0 +1,90 @@
+.navbar {
+    background-color:black;
+    width:100%;
+    height: 40px;
+    display:inline-block;
+    color: white;
+    /* padding-left: 40px; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+header{
+    margin-top: 6px;
+    background-color: white;
+    min-width:100vw;
+    height: 120px;
+    left: 0;
+    background-color:white;
+    color: black;
+    display:flex;  
+    padding-top:10px;
+    /* padding-left: 40px;  */
+}
+nav{
+    display:flex;
+    padding-bottom:500px;
+}
+nav ul li{
+    display:inline;
+    padding: 20px;
+
+}
+a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.l1{
+    margin-left:600px;
+}
+.cour{
+    padding-left: 250px;
+}
+
+
+
+.foot{
+    display:flex;
+    grid-auto-flow: column;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.dai{
+    padding-top: 150px;
+    padding-left: 100px;
+    font-size:small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.daif{
+    /* margin:50px; */
+    margin-left:120px;
+    margin-top: 100px;
+}
+.daif ul{
+    list-style: none;
+}
+.daif ul li{
+    margin-top:10px;
+    margin-right:120px;
+}
+
+.dais ul{
+    list-style: none;
+}
+.dais ul li{
+    margin-top: 10px;
+    margin-right: 120px;
+}
+.dais{
+    /* margin:50px; */
+    margin-left: 120px;
+    margin-top: 100px;
+}

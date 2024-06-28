@@ -1,0 +1,72 @@
+
+.port{
+     /* background-image: linear-gradient(brown,black,red); */
+    text-align: center;
+    /* border-radius: 100%; */
+    /* width:50px;
+    height: 50px; */
+    color: black;
+    padding-top: 300px;
+    background-image: linear-gradient(pink,blue);
+    border-radius:50px;
+    padding-bottom: 100px;
+    height: 2px;
+    /* margin-left: 250px; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    display:flex;
+    grid-auto-flow: column;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.dai{
+    padding-top: 150px;
+    padding-left: 100px;
+    font-size:small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.daif{
+    /* margin:50px; */
+    margin-left:120px;
+    margin-top: 100px;
+}
+.daif ul{
+    list-style: none;
+}
+.daif ul li{
+    margin-top:10px;
+    margin-right:120px;
+}
+
+.dais ul{
+    list-style: none;
+}
+.dais ul li{
+    margin-top: 10px;
+    margin-right: 120px;
+}
+.dais{
+    /* margin:50px; */
+    margin-left: 120px;
+    margin-top: 100px;
+}
