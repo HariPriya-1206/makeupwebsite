@@ -41,7 +41,7 @@ a:hover{
     color: brown;
 }
 .l1{
-    margin-left:600px;
+    margin-left:800px;
 }
 .nam{
     margin-top: 250px;
@@ -105,16 +105,16 @@ a:hover{
     justify-content: center;
     align-items:center ;
 }
-
-.daif ol,.dais ol{
+ .daif ol,.dais ol{
     display: flex;
     flex-direction: column;
-    list-style: none;
-    
-}
-
+    list-style: none; 
+} 
 .dai h2{
     margin-top:70px;
+}
+.daif img{
+    padding: 10px;
 }
 
 

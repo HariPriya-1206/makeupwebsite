@@ -41,7 +41,24 @@ a:hover{
     color: brown;
 }
 .l1{
-    margin-left:600px;
+    margin-left:800px;
+}
+
+.layout::before{
+    content: "BRIDAL MAKEUP PACKAGES";
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    display: flex;
+    padding-top:20%;
+    padding-left:1000px;
+    z-index: 99;
+    font-size: 80px;
+    font-weight: 100;
+    color: white;
+    
+
+
 }
 .service{
     font-family: "Archivo Black", sans-serif;
@@ -55,7 +72,74 @@ a:hover{
     margin-left: 90px;
     margin-right: 90px;
 }
+.ser{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 80px;
+    position: relative;
+}
+.serff{
+    color: gray;
+    font-size: larger;
+}
+.serss{
+    color: gray;
+    font-size: larger;
+}
+.sertt{
+    color: gray;
+    font-size: larger;
+}
+/* .serf{
+    font-size: larger;
+    font-style:italic;
+    
+} */
 
+
+.layout1::before{
+    content: "30000k";
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    display: flex;
+    padding-top:10%;
+    padding-left: 30px;
+    z-index: 99;
+    font-size: 80px;
+    font-weight: 100;
+    color: white;
+    
+
+}
+.layout2::before{
+    content: "40000k";
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    display: flex;
+    padding-top:10%;    
+    padding-left: 30px;
+    z-index: 99;
+    font-size: 80px;
+    font-weight: 100;
+    color:white;
+
+}
+.layout3::before{
+    content: "7500k";
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    display: flex;
+    padding-top:10%;
+    padding-left: 30px;
+    z-index: 99;
+    font-size: 80px;
+    font-weight: 500;
+    color:white;
+
+}
 
 
 
@@ -78,13 +162,13 @@ a:hover{
     margin-left:120px;
     margin-top: 100px;
 }
-.daif ul{
+/* .daif ul{
     list-style: none;
 }
 .daif ul li{
     margin-top:10px;
     margin-right:120px;
-}
+} */
 
 .dais ul{
     list-style: none;
@@ -97,4 +181,7 @@ a:hover{
     /* margin:50px; */
     margin-left: 120px;
     margin-top: 100px;
+}
+.daif img{
+    padding: 10px;
 }

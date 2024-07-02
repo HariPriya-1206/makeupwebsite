@@ -41,7 +41,7 @@ a:hover{
     color: brown;
 }
 .l1{
-    margin-left:600px;
+    margin-left:800px;
 }
 .best{
     font-family: "Archivo Black", sans-serif;
@@ -99,7 +99,7 @@ a:hover{
     margin-left:120px;
     margin-top: 100px;
 }
-.daif h2{
+/* .daif h2{
     margin-left: 30px;
 }
 .daif h2{
@@ -111,7 +111,7 @@ a:hover{
 .daif ul li{
     margin-top:10px;
     margin-right:120px;
-}
+} */
 
 .dais ul{
     list-style: none;
@@ -124,4 +124,7 @@ a:hover{
     /* margin:50px; */
     margin-left: 120px;
     margin-top: 100px;
+}
+.daif img{
+    padding: 10px;
 }

@@ -41,7 +41,7 @@ a:hover{
     color: brown;
 }
 .l1{
-    margin-left:600px;
+    margin-left:800px;
 }
 .tab{
     padding-left: 100px;
@@ -67,13 +67,13 @@ a:hover{
     margin-left:120px;
     margin-top: 100px;
 }
-.daif ul{
+/* .daif ul{
     list-style: none;
 }
 .daif ul li{
     margin-top:10px;
     margin-right:120px;
-}
+} */
 
 .dais ul{
     list-style: none;
@@ -93,5 +93,9 @@ a:hover{
     grid-auto-flow: row;
     /* padding-top:350px;
     padding-right:300px; */
-    padding: 30px;
-}   */
+    /* padding: 30px; */
+  
+    .daif img{
+        padding: 10px;
+    }
+    

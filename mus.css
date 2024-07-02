@@ -43,64 +43,102 @@ a:hover{
 .l1{
     margin-left:800px;
 }
-.tnm{
+/* .mus{
+    display: grid;
+}
+.musl{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 50vw;
+    margin-left: 70px;
+}
+.musl img{
+    border-radius: 40px;
+    width: 100%;
+    height: 350px;
+} */
+ 
+.mus{
     display: grid;
     grid-auto-flow: column;
 }
-.tn{
-    margin-top: 80px;
+.musl{
     display: grid;
-    grid-template-columns:  1fr 1fr ;
-    grid-template-rows:1fr 1fr 1fr;
-    gap: 60px;
-    width: 50vw;
-    margin:50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 80px;
+    width:50vw;
+    margin-left: 70px;
+    grid-template-areas:
+    "first second third"
+    "fourth ... fifth"
+    "sixth seven eight"
+    ;
+    padding-top: 80px;
+
+    
 }
-.tn img{
+.musl img{
     width: 100%;
     height: 350px;
-    border-radius: 20%;
-    box-shadow: 8px 0px 8px 8px gray;
-   
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px;
+    
 }
-.tamilnadu{
+
+
+
+
+.musl img:nth-child(1){
+    grid-area: first;
+
+}
+.musl img:nth-child(2){
+    grid-area: second;
+
+}
+.musl img:nth-child(3){
+        grid-area: third;
+}
+
+.musl img:nth-child(4){
+    grid-area: fourth;
+
+}
+.musl img:nth-child(5){
+    grid-area: fifth;
+
+}
+.musl img:nth-child(6){
+    grid-area: sixth;
+
+
+}
+.musl img:nth-child(7){
+    grid-area: seven;
+
+}
+.musl img:nth-child(8){
+    grid-area: eight
+
+}
+.muslim{
     padding-top: 200px;
     font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-.tt{
+  
+ }
+
+.muss{
     margin-left: 90px; 
     margin-right: 60px;
     margin-top: 130px;
 }
-/* .tn  img:nth-child(1){
-    grid-area: first;
-
-}
-
-.tn img:nth-child(2){
-    grid-area: two;
-}
-.tn img:nth-child(3){
-    grid-area: three;
-}
-.tn img:nth-child(4){
-    grid-area: four;
-}
-.tn img:nth-child(5){
-    grid-area: five;
-}
-.tn img:nth-child(6){
-    grid-area: six;
-} */
-/* .tncon{
-    font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-.clrt{
+.clrm{
     background-color:gray;
     width: 80px;
     height: 40px;
@@ -108,4 +146,3 @@ a:hover{
     padding: 30px;
     margin: 40px;
 }
-
