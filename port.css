@@ -83,6 +83,7 @@ a:hover{
     border-radius: 20%;
     padding: 30px;
     margin: 40px;
+    border: 2px solid black;
 }
 .foot{
     display:flex;
